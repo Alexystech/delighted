@@ -1,0 +1,36 @@
+{
+    "name": "delighted/delighted",
+    "type": "library",
+    "description": "Delighted PHP API Client",
+    "keywords": ["delighted"],
+    "license": "MIT",
+    "homepage": "http://github.com/delighted/delighted-php",
+    "authors": [
+        {
+            "name": "Ben Turner",
+            "email": "ben@delighted.com"
+        },
+        {
+            "name": "David Sklar",
+            "email": "david.sklar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.2||^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "symfony/var-dumper": "^3.2",
+        "php-mock/php-mock-phpunit": "^2.6"
+    },
+    "autoload": {
+        "psr-4": { "Delighted\\": "lib/Delighted/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev",
+            "dev-2.x": "2.0-dev"
+        }
+    }
+}

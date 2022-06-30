@@ -1,0 +1,23 @@
+{
+    "name": "welldex/delighted",
+    "description": "working with delighted api",
+    "type": "project",
+    "require": {
+        "delighted/delighted": "^4.1",
+        "symfony/http-client": "^6.1",
+        "rmccue/requests": "^2.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "simplon/mysql": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Welldex\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexis V."
+        }
+    ]
+}
