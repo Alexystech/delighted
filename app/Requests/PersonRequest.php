@@ -11,7 +11,7 @@ class PersonRequest
 {
 
     public function __construct() {
-        \Delighted\Client::setApiKey("RF4e44Wbzq0v3lyU0zWdrDmEAMwqUbJC");
+        \Delighted\Client::setApiKey("XpFvLZtneTBUfwuYEnjZvuUaywWOc1xh");
     }
 
     public static function create(EntityPerson $person)
@@ -27,8 +27,8 @@ class PersonRequest
     {
         $client = new Client();
         $headers = [
-            'x-api-key' => "RF4e44Wbzq0v3lyU0zWdrDmEAMwqUbJC",
-            'Authorization' => "Basic UkY0ZTQ0V2J6cTB2M2x5VTB6V2RyRG1FQU13cVViSkM6SzhpYk12bWphUFJFcio="
+            'x-api-key' => "XpFvLZtneTBUfwuYEnjZvuUaywWOc1xh",
+            'Authorization' => "Basic WHBGdkxadG5lVEJVZnd1WUVualp2dVVheXdXT2MxeGg6SzhpYk12bWphUFJFcio="
         ];
         $request = new Request('GET', 'https://api.delighted.com/v1/people.json', $headers);
         $res = $client->sendAsync($request)->wait();
@@ -52,7 +52,7 @@ class PersonRequest
     {
         $client = new Client();
         $headers = [
-          'x-api-key' => 'RF4e44Wbzq0v3lyU0zWdrDmEAMwqUbJC',
+          'x-api-key' => 'XpFvLZtneTBUfwuYEnjZvuUaywWOc1xh',
           'Authorization' => 'Basic UkY0ZTQ0V2J6cTB2M2x5VTB6V2RyRG1FQU13cVViSkM6SzhpYk12bWphUFJFcio='
         ];
         $request = new Request('GET', 'https://api.delighted.com/v1/unsubscribes.json', $headers);
@@ -64,7 +64,7 @@ class PersonRequest
     {
         $client = new Client();
         $headers = [
-          'x-api-key' => 'RF4e44Wbzq0v3lyU0zWdrDmEAMwqUbJC',
+          'x-api-key' => 'XpFvLZtneTBUfwuYEnjZvuUaywWOc1xh',
           'Authorization' => 'Basic UkY0ZTQ0V2J6cTB2M2x5VTB6V2RyRG1FQU13cVViSkM6SzhpYk12bWphUFJFcio='
         ];
         $request = new Request('GET', 'https://api.delighted.com/v1/bounces.json', $headers);

@@ -5,7 +5,7 @@ class AutopilotConfig
 {
     public function __construct()
     {
-        \Delighted\Client::setApiKey('RF4e44Wbzq0v3lyU0zWdrDmEAMwqUbJC');
+        \Delighted\Client::setApiKey('XpFvLZtneTBUfwuYEnjZvuUaywWOc1xh');
     }
 
     public static function getAutopilotConfig()
